@@ -31,13 +31,3 @@ This project predicts customer churn for a telecom company using machine learnin
 - Seaborn, Matplotlib
 - Jupyter Notebook
 
-## 📸 Screenshots
-
-![Churn Distribution](images/churn_distribution.png)  
-![Feature Importance](images/feature_importance.png)  
-![Model Performance](images/model_metrics.png)
-
-## 📎 Usage
-
-```bash
-pip install -r requirements.txt
