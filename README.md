@@ -1,33 +1,48 @@
-# Telecom Customer Retention
+# 📞 Telecom Customer Retention – Churn Prediction with ML
 
-This project predicts customer churn for a telecom company using machine learning techniques. It analyzes customer behavior and contract information to identify customers at risk of leaving.
+This project aims to predict customer churn for a telecom company using machine learning. It analyzes customer behavior, usage patterns, and account information to identify customers likely to leave. The goal is to help businesses improve customer retention and reduce revenue loss.
 
-## 📁 Dataset
+---
 
-- `TelecomCustomerChurn.csv` contains customer information like tenure, monthly charges, contract type, and churn status.
+## 📊 Dataset
 
-## 🔍 Project Steps
+- **Source:** TelecomCustomerChurn.csv  
+- **Attributes include:**  
+  - Demographics (gender, senior citizen, etc.)  
+  - Service details (internet service, phone line, etc.)  
+  - Account information (contract type, monthly charges, etc.)  
+  - Churn status (Yes/No)
 
-1. Data Cleaning & Preprocessing
-2. Exploratory Data Analysis (EDA)
-3. Feature Engineering
-4. Model Building (Random Forest, Logistic Regression, etc.)
-5. Evaluation and Interpretation
+---
 
-## 📊 Results
+## 🔍 Project Workflow
 
-- **Best Model Accuracy**: 85%
-- Key features influencing churn:
-  - Contract Type
-  - Monthly Charges
-  - Tenure
-- Visualizations and performance metrics included
+1. **Data Cleaning & Preprocessing**
+2. **Exploratory Data Analysis (EDA)**
+3. **Feature Engineering**
+4. **Model Building** (Random Forest, XGBoost, Logistic Regression)
+5. **Model Evaluation** using metrics like accuracy, precision, recall, F1-score, and ROC-AUC
+6. **Result Interpretation** through feature importance
+7. *(Optional)* Deployment using Streamlit or Flask
+
+---
 
 ## 🛠️ Technologies Used
 
 - Python
 - Pandas, NumPy
-- Scikit-learn
-- Seaborn, Matplotlib
-- Jupyter Notebook
+- Scikit-learn, XGBoost
+- Matplotlib, Seaborn
+- google colab
 
+---
+
+## 📈 Results
+
+- **Best Model:** Random Forest  
+- **ROC AUC Score:** 0.83  
+- **Accuracy:** ~85%  
+- **Key Influencing Features:**
+  - Contract Type
+  - Tenure
+  - Monthly Charges
